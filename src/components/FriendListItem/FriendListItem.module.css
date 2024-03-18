@@ -1,0 +1,23 @@
+.img {
+  margin: 0 auto;
+}
+
+.name {
+  color: #000;
+  margin-top: 8px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.online {
+  font-size: 20px;
+  color: #000;
+}
+
+.isOnline {
+  color: green;
+}
+
+.isOffline {
+  color: tomato;
+}
