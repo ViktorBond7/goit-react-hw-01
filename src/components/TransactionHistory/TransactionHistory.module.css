@@ -3,7 +3,6 @@
   border-collapse: collapse;
   text-align: center;
   margin-top: 50px;
-  box-shadow: var(--shadow-small);
 }
 
 .head {
@@ -15,13 +14,11 @@
 .td {
   padding: 10px;
   border: 1px solid #000;
-  color: var(--color-dark);
 }
 
 .th {
   padding: 10px;
   border: 1px solid #000;
-  color: var(--color-white);
 }
 
 .tr {
