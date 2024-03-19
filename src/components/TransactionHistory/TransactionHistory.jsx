@@ -6,19 +6,19 @@ const TransactionHistory = ({ transactions }) => {
     return (
       <table className={css.table}>
         <thead className={css.head}>
-          <tr className={css.line}>
-            <th className={css.column}>Type</th>
-            <th className={css.column}>Amount</th>
-            <th className={css.column}>Currency</th>
+          <tr>
+            <th className={css.th}>Type</th>
+            <th className={css.th}>Amount</th>
+            <th className={css.th}>Currency</th>
           </tr>
         </thead>
 
         <tbody>
           {transactions.map(({ id, type, amount, currency }) => (
-            <tr className={css.tableRow} key={id}>
-              <td className={css.transaction}>{type}</td>
-              <td>{amount}</td>
-              <td>{currency}</td>
+            <tr className={css.tr} key={id}>
+              <td className={css.td}>{type}</td>
+              <td className={css.td}>{amount}</td>
+              <td className={css.td}>{currency}</td>
             </tr>
           ))}
         </tbody>
